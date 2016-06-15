@@ -1,9 +1,14 @@
 var React = require('react');
+var Header = require('./Header.js');
+var Footer = require('./Footer.js');
 
 var App = React.createClass({
 	render: function() {
 		return (
-			<h1>Hello world!</h1>
+			<div>
+        <Header />   
+        <Footer />
+      </div>
 		);
 	}
 	
